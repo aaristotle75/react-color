@@ -1,12 +1,12 @@
 {
-  "name": "react-color",
+  "name": "react-color-aaristotle",
   "version": "2.19.3",
   "description": "A Collection of Color Pickers from Sketch, Photoshop, Chrome & more",
   "main": "lib/index.js",
   "module": "es/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/casesandberg/react-color.git"
+    "url": "git+https://github.com/aaristotle75/react-color.git"
   },
   "author": "case <case@casesandberg.com>",
   "license": "MIT",
@@ -30,7 +30,7 @@
     "chromatic": "chromatic --project-token=9z2kaxsuz"
   },
   "sideEffects": false,
-  "homepage": "http://casesandberg.github.io/react-color/",
+  "homepage": "https://github.com/aaristotle75/react-color",
   "keywords": [
     "react",
     "color picker",
@@ -126,5 +126,10 @@
         ]
       }
     ]
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib"
   }
 }
