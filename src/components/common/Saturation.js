@@ -20,9 +20,11 @@ export class Saturation extends (PureComponent || Component) {
   getContainerRenderWindow() {
     const { container } = this
     let renderWindow = window
+    /* Comment this out because it causes issues with cross origin iframes
     while (!renderWindow.document.contains(container) && renderWindow.parent !== renderWindow) {
       renderWindow = renderWindow.parent
     }
+    */
     return renderWindow
   }
 
