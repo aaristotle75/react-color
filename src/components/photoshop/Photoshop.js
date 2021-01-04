@@ -20,7 +20,7 @@ export class Photoshop extends React.Component {
   }
 
   render() {
-    const { 
+    const {
       styles: passedStyles = {},
       className = '',
     } = this.props
@@ -110,7 +110,7 @@ export class Photoshop extends React.Component {
                   currentColor={ this.state.currentColor }
                 />
               </div>
-              <div style={ styles.actions }>
+              <div style={ styles.actions } className='photoshopButtonGroup'>
                 <PhotoshopButton label="OK" onClick={ this.props.onAccept } active />
                 <PhotoshopButton label="Cancel" onClick={ this.props.onCancel } />
                 <PhotoshopFields
