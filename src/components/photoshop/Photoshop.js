@@ -86,7 +86,7 @@ export class Photoshop extends React.Component {
         <div style={ styles.head }>{ this.props.header }</div>
 
         <div style={ styles.body } className="flexbox-fix">
-          <div style={ styles.saturation }>
+          <div style={ styles.saturation } className='photoshop-picker-colorpicker'>
             <Saturation
               hsl={ this.props.hsl }
               hsv={ this.props.hsv }
@@ -94,7 +94,7 @@ export class Photoshop extends React.Component {
               onChange={ this.props.onChange }
             />
           </div>
-          <div style={ styles.hue }>
+          <div style={ styles.hue } className='photoshop-picker-verticalpicker'>
             <Hue
               direction="vertical"
               hsl={ this.props.hsl }

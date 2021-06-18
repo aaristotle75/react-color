@@ -26,7 +26,7 @@ export const PhotoshopButton = ({ onClick, label, children, active }) => {
   }, { active })
 
   return (
-    <div style={ styles.button } onClick={ onClick }>
+    <div style={ styles.button } onClick={ onClick } className='photoshop-picker-controlbutton'>
       { label || children }
     </div>
   )
