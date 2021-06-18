@@ -1,6 +1,6 @@
 {
   "name": "react-color-aaristotle",
-  "version": "2.23.0",
+  "version": "2.24.0",
   "description": "A Collection of Color Pickers from Sketch, Photoshop, Chrome & more",
   "main": "lib/index.js",
   "module": "es/index.js",
