@@ -30,7 +30,7 @@ export const PhotoshopPreviews = ({ rgb, currentColor }) => {
 
   return (
     <div>
-      <div style={ styles.swatches }>
+      <div style={ styles.swatches } className='photoshop-picker-preview-group'>
         <div style={ styles.current } className='photoshop-picker-preview-button' />
         <div style={ styles.label } className='photoshop-picker-preview-label'>Current Color</div>
         <div style={ styles.new } className='photoshop-picker-preview-button' />
